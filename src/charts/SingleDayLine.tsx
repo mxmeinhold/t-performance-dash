@@ -7,6 +7,7 @@ import writeError from './error';
 import { DownloadButton } from './download';
 import { prettyDate, departure_from_normal_string, point_colors } from './lineUtils';
 import type { DataPoint, Location, BenchmarkField, YField, XField } from './types';
+import { minuteDecimalToMinutesSeconds } from '../formattingUtils';
 
 interface SingleDayLineProps {
   title: string;
@@ -69,6 +70,9 @@ export const SingleDayLine: React.FC<SingleDayLineProps> = ({
             tooltips: {
               // TODO: tooltip is under title words
               callbacks: {
+                label: (context: {datasetIndex: number, yLabel: number}, data: {datasets: [{label: string}]}) => {
+                  return `${data.datasets[context.datasetIndex].label}: ${minuteDecimalToMinutesSeconds(context.yLabel)}`
+                },
                 afterBody: (tooltipItems: any[]) => {
                   return departure_from_normal_string(
                     tooltipItems[0].value,

@@ -2,6 +2,7 @@ import moment, { Moment } from 'moment';
 import { colorsForLine, derailments } from '../constants';
 import { lookup_station_by_id } from '../stations';
 import { Direction, SlowZone } from './types';
+import { minuteDecimalToMinutesSeconds } from '../formattingUtils';
 
 const ua = window.navigator.userAgent;
 const isMobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(ua);
@@ -347,7 +348,7 @@ export const generateLineOptions = (
         'MMMM Do YYYY'
       )}</span><br/> <span style="color:${this.point.color}">●</span> ${
         this.point.series.name
-      }: <b>${this.point.y}</b><br/></div>`;
+      }: <b>${minuteDecimalToMinutesSeconds(this.point.y)}</b><br/></div>`;
     },
   },
   legend: {
