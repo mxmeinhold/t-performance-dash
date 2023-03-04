@@ -1,4 +1,4 @@
-import { stations as rt_stations } from './constants';
+import { stations as rt_stations, Line, Station } from './constants';
 
 import bus_1 from './bus_constants/1.json';
 import bus_15 from './bus_constants/15.json';
@@ -15,7 +15,7 @@ import bus_77 from './bus_constants/77.json';
 import bus_111 from './bus_constants/111.json';
 import bus_114_116_117 from './bus_constants/114-116-117.json'
 
-const stations = {...rt_stations,
+const stations: Record<string, Line> = {...rt_stations,
                   ...bus_1,
                   ...bus_15,
                   ...bus_22,
@@ -44,7 +44,7 @@ const subway_lines = () => {
   return all_lines().filter((line) => stations[line].type !== "bus")
 }
 
-const lookup_station_by_id = (line, id) => {
+const lookup_station_by_id = (line?: string, id?:string) => {
   if (line === "" || line === undefined || id === "" || id === undefined) {
     return undefined;
   }
@@ -52,21 +52,21 @@ const lookup_station_by_id = (line, id) => {
   return stations[line].stations.find(x => [...x.stops["0"] || [], ...x.stops["1"] || []].includes(id));
 };
 
-const options_station = (line) => {
+const options_station = (line?: string) => {
   if (!line) {
     return [];
   }
   return stations[line].stations;
 };
 
-const station_direction = (from, to, line) => {
+const station_direction = (from: Station, to: Station, line: string) => {
   if (from.order === to.order) {
     return "";
   }
   return from.order > to.order ? stations[line].direction["0"] : stations[line].direction["1"];
 }
 
-const get_stop_ids_for_stations = (from, to) => {
+const get_stop_ids_for_stations = (from?: Station, to?: Station) => {
   if (!from || !to) {
     return { fromStopId: null, toStopId: null };
   }
@@ -77,7 +77,7 @@ const get_stop_ids_for_stations = (from, to) => {
   }
 }
 
-const line_name = (line) => {
+const line_name = (line?: string) => {
   if (!line) {
     return "";
   }

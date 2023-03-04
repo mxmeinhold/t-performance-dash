@@ -1,7 +1,7 @@
 import moment from 'moment';
 import { MbtaMajorEvent } from './slowzones/types';
 
-import stations_json from './stations.json';
+import * as stations_json from './stations.json';
 
 export const PRODUCTION = 'dashboard.transitmatters.org';
 const FRONTEND_TO_BACKEND_MAP = new Map([
@@ -44,7 +44,41 @@ export const busDateRange = {
   maxDate: '2022-12-31',
 };
 
-export const stations = stations_json;
+interface BikeFacility {
+  id: string
+  stop: string
+  properties: {
+    capacity: number
+    enclosed: number
+    secured: number
+  }
+  long_name: string
+}
+
+export interface Station {
+  stop_name: string;
+  branches: string[] | null;
+  station: string;
+  disabled?: boolean;
+  order: number;
+  stops: { '0': string[]; '1': string[] };
+  
+  // It seems that in loading the json, it interprets the wheelchair_boarding objects as a set of keys with a bunch of undefined, rather than a record mapping
+  // Values:
+  // 0: unknown
+  // 1: wheelchair accessible
+  // 2: inaccessible
+  wheelchair_boarding?: Record<string, number | undefined>;
+  bike_facilities?: BikeFacility[];
+}
+
+export interface Line {
+  type: string;
+  direction: { "0": string; "1": string };
+  stations: Station[];
+}
+
+export const stations: Record<string, Line> = stations_json;
 
 export const majorEvents: Record<string, MbtaMajorEvent> = {
   RedDerailment: {

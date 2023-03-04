@@ -70,6 +70,9 @@ export const formatSlowZones = (data: any) =>
   data.map((x: any) => {
     const from = lookup_station_by_id(x.color, x.fr_id);
     const to = lookup_station_by_id(x.color, x.to_id);
+    if (!from || !to) {
+      return undefined
+    }
     const direction = getDirection(to, from);
     return {
       order: from.order,

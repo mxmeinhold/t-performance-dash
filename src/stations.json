@@ -8,210 +8,691 @@
 		"stations": [
 			{
 				"stop_name": "Alewife",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-alfcl",
 				"order": 1,
 				"stops": {
-					"0": ["70061"],
-					"1": ["70061"]
+					"0": [
+						"70061"
+					],
+					"1": [
+						"70061"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-alfcl-east",
+						"stop": "place-alfcl",
+						"properties": {
+							"capacity": 494,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Alewife Pedal and Park"
+					},
+					{
+						"id": "bike-alfcl-central",
+						"stop": "place-alfcl",
+						"properties": {
+							"capacity": 494,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Alewife Pedal and Park"
+					},
+					{
+						"id": "bike-alfcl-west",
+						"stop": "place-alfcl",
+						"properties": {
+							"capacity": 494,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Alewife Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70061": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Davis",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-davis",
 				"order": 2,
 				"stops": {
-					"0": ["70064"],
-					"1": ["70063"]
+					"0": [
+						"70064"
+					],
+					"1": [
+						"70063"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-davis",
+						"stop": "place-davis",
+						"properties": {
+							"capacity": 165,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Davis Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70064": 1,
+					"70063": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Porter",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-portr",
 				"order": 3,
 				"stops": {
-					"0": ["70066"],
-					"1": ["70065"]
+					"0": [
+						"70066"
+					],
+					"1": [
+						"70065"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-portr",
+						"stop": "place-portr",
+						"properties": {
+							"capacity": 34,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Porter bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70066": 1,
+					"70065": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Harvard",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-harsq",
 				"order": 4,
 				"stops": {
-					"0": ["70068"],
-					"1": ["70067"]
+					"0": [
+						"70068"
+					],
+					"1": [
+						"70067"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-harsq",
+						"stop": "place-harsq",
+						"properties": {
+							"capacity": 21,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Harvard bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70068": 1,
+					"70067": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Central",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-cntsq",
 				"order": 5,
 				"stops": {
-					"0": ["70070"],
-					"1": ["70069"]
+					"0": [
+						"70070"
+					],
+					"1": [
+						"70069"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-cntsq",
+						"stop": "place-cntsq",
+						"properties": {
+							"capacity": 36,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Central covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70070": 1,
+					"70069": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Kendall/MIT",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-knncl",
 				"order": 6,
 				"stops": {
-					"0": ["70072"],
-					"1": ["70071"]
+					"0": [
+						"70072"
+					],
+					"1": [
+						"70071"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-knncl",
+						"stop": "place-knncl",
+						"properties": {
+							"capacity": 58,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Kendall/MIT bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70071": 1,
+					"70072": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Charles/MGH",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-chmnl",
 				"order": 7,
 				"stops": {
-					"0": ["70074"],
-					"1": ["70073"]
+					"0": [
+						"70074"
+					],
+					"1": [
+						"70073"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70074": 1,
+					"70073": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Park Street",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-pktrm",
 				"order": 8,
 				"stops": {
-					"0": ["70076"],
-					"1": ["70075"]
+					"0": [
+						"70076"
+					],
+					"1": [
+						"70075"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70075": 1,
+					"70076": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Downtown Crossing",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-dwnxg",
 				"order": 9,
 				"stops": {
-					"0": ["70078"],
-					"1": ["70077"]
+					"0": [
+						"70078"
+					],
+					"1": [
+						"70077"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70077": 1,
+					"70078": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "South Station",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-sstat",
 				"order": 10,
 				"stops": {
-					"0": ["70080"],
-					"1": ["70079"]
+					"0": [
+						"70080"
+					],
+					"1": [
+						"70079"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-sstat",
+						"stop": "place-sstat",
+						"properties": {
+							"capacity": 38,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "South Station bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70080": 1,
+					"70079": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Broadway",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-brdwy",
 				"order": 11,
 				"stops": {
-					"0": ["70082"],
-					"1": ["70081"]
+					"0": [
+						"70082"
+					],
+					"1": [
+						"70081"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70082": 1,
+					"70081": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Andrew",
-				"branches": ["A", "B"],
+				"branches": [
+					"A",
+					"B"
+				],
 				"station": "place-andrw",
 				"order": 12,
 				"stops": {
-					"0": ["70084"],
-					"1": ["70083"]
+					"0": [
+						"70084"
+					],
+					"1": [
+						"70083"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70084": 1,
+					"70083": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "JFK/UMass (Ashmont)",
-				"branches": ["A"],
+				"branches": [
+					"A"
+				],
 				"station": "place-jfk",
 				"order": 101,
 				"stops": {
-					"0": ["70086"],
-					"1": ["70085"]
+					"0": [
+						"70086"
+					],
+					"1": [
+						"70085"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70085": 1,
+					"70086": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Savin Hill",
-				"branches": ["A"],
+				"branches": [
+					"A"
+				],
 				"station": "place-shmnl",
 				"order": 102,
 				"stops": {
-					"0": ["70088"],
-					"1": ["70087"]
+					"0": [
+						"70088"
+					],
+					"1": [
+						"70087"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-shmnl",
+						"stop": "place-shmnl",
+						"properties": {
+							"capacity": 10,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Savin Hill bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70088": 1,
+					"70087": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Fields Corner",
-				"branches": ["A"],
+				"branches": [
+					"A"
+				],
 				"station": "place-fldcr",
 				"order": 103,
 				"stops": {
-					"0": ["70090"],
-					"1": ["70089"]
+					"0": [
+						"70090"
+					],
+					"1": [
+						"70089"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-fldcr",
+						"stop": "place-fldcr",
+						"properties": {
+							"capacity": 39,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Fields Corner covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70089": 1,
+					"70090": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Shawmut",
-				"branches": ["A"],
+				"branches": [
+					"A"
+				],
 				"station": "place-smmnl",
 				"order": 104,
 				"stops": {
-					"0": ["70092"],
-					"1": ["70091"]
+					"0": [
+						"70092"
+					],
+					"1": [
+						"70091"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70091": 1,
+					"70092": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Ashmont",
-				"branches": ["A"],
+				"branches": [
+					"A"
+				],
 				"station": "place-asmnl",
 				"order": 105,
 				"stops": {
-					"0": ["70094"],
-					"1": ["70093"]
+					"0": [
+						"70094"
+					],
+					"1": [
+						"70093"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-asmnl",
+						"stop": "place-asmnl",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Ashmont Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70093": 1,
+					"70094": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "JFK/UMass (Braintree)",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-jfk",
 				"order": 201,
 				"stops": {
-					"0": ["70096"],
-					"1": ["70095"]
+					"0": [
+						"70096"
+					],
+					"1": [
+						"70095"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-jfk",
+						"stop": "place-jfk",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "JFK/UMass bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70096": 1,
+					"70095": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "North Quincy",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-nqncy",
 				"order": 202,
 				"stops": {
-					"0": ["70098"],
-					"1": ["70097"]
+					"0": [
+						"70098"
+					],
+					"1": [
+						"70097"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-nqncy",
+						"stop": "place-nqncy",
+						"properties": {
+							"capacity": 101,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "North Quincy covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70097": 1,
+					"70098": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Wollaston",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-wlsta",
 				"order": 203,
 				"stops": {
-					"0": ["70100"],
-					"1": ["70099"]
+					"0": [
+						"70100"
+					],
+					"1": [
+						"70099"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-wlsta",
+						"stop": "place-wlsta",
+						"properties": {
+							"capacity": 92,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Wollaston Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70100": 1,
+					"70099": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Quincy Center",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-qnctr",
 				"order": 204,
 				"stops": {
-					"0": ["70102"],
-					"1": ["70101"]
+					"0": [
+						"70102"
+					],
+					"1": [
+						"70101"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-qnctr",
+						"stop": "place-qnctr",
+						"properties": {
+							"capacity": 20,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Quincy Center bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70101": 1,
+					"70102": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Quincy Adams",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-qamnl",
 				"order": 205,
 				"stops": {
-					"0": ["70104"],
-					"1": ["70103"]
+					"0": [
+						"70104"
+					],
+					"1": [
+						"70103"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-qamnl",
+						"stop": "place-qamnl",
+						"properties": {
+							"capacity": 64,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Quincy Adams bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70103": 1,
+					"70104": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Braintree",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-brntn",
 				"order": 206,
 				"stops": {
-					"0": ["70105"],
-					"1": ["70105"]
+					"0": [
+						"70105"
+					],
+					"1": [
+						"70105"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-brntn",
+						"stop": "place-brntn",
+						"properties": {
+							"capacity": 111,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Braintree Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70105": 1
 				}
 			}
 		]
@@ -229,179 +710,508 @@
 				"station": "place-ogmnl",
 				"order": 1,
 				"stops": {
-					"0": ["70036"],
-					"1": ["70036"]
+					"0": [
+						"70036"
+					],
+					"1": [
+						"70036"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-ogmnl",
+						"stop": "place-ogmnl",
+						"properties": {
+							"capacity": 76,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Oak Grove Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70036": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Malden Center",
 				"branches": null,
 				"station": "place-mlmnl",
 				"order": 2,
 				"stops": {
-					"0": ["70035"],
-					"1": ["70034"]
+					"0": [
+						"70035"
+					],
+					"1": [
+						"70034"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-mlmnl",
+						"stop": "place-mlmnl",
+						"properties": {
+							"capacity": 206,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Malden Center Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70035": 1,
+					"70034": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Wellington",
 				"branches": null,
 				"station": "place-welln",
 				"order": 3,
 				"stops": {
-					"0": ["70033"],
-					"1": ["70032"]
+					"0": [
+						"70033"
+					],
+					"1": [
+						"70032"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-welln",
+						"stop": "place-welln",
+						"properties": {
+							"capacity": 21,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Wellington covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70033": 1,
+					"70032": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Assembly",
 				"branches": null,
 				"station": "place-astao",
 				"order": 4,
 				"stops": {
-					"0": ["70279"],
-					"1": ["70278"]
+					"0": [
+						"70279"
+					],
+					"1": [
+						"70278"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70278": 1,
+					"70279": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Sullivan Square",
 				"branches": null,
 				"station": "place-sull",
 				"order": 5,
 				"stops": {
-					"0": ["70031"],
-					"1": ["70030"]
+					"0": [
+						"70031"
+					],
+					"1": [
+						"70030"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-sull",
+						"stop": "place-sull",
+						"properties": {
+							"capacity": 62,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Sullivan Square covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70031": 1,
+					"70030": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Community College",
 				"branches": null,
 				"station": "place-ccmnl",
 				"order": 6,
 				"stops": {
-					"0": ["70029"],
-					"1": ["70028"]
+					"0": [
+						"70029"
+					],
+					"1": [
+						"70028"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-ccmnl",
+						"stop": "place-ccmnl",
+						"properties": {
+							"capacity": 5,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Community College bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70028": 1,
+					"70029": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "North Station",
 				"branches": null,
 				"station": "place-north",
 				"order": 7,
 				"stops": {
-					"0": ["70027"],
-					"1": ["70026"]
+					"0": [
+						"70027"
+					],
+					"1": [
+						"70026"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70026": 1,
+					"70027": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Haymarket",
 				"branches": null,
 				"station": "place-haecl",
 				"order": 8,
 				"stops": {
-					"0": ["70025"],
-					"1": ["70024"]
+					"0": [
+						"70025"
+					],
+					"1": [
+						"70024"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70025": 1,
+					"70024": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "State Street",
 				"branches": null,
 				"station": "place-state",
 				"order": 9,
 				"stops": {
-					"0": ["70023"],
-					"1": ["70022"]
+					"0": [
+						"70023"
+					],
+					"1": [
+						"70022"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70022": 1,
+					"70023": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Downtown Crossing",
 				"branches": null,
 				"station": "place-dwnxg",
 				"order": 10,
 				"stops": {
-					"0": ["70021"],
-					"1": ["70020"]
+					"0": [
+						"70021"
+					],
+					"1": [
+						"70020"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70021": 1,
+					"70020": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Chinatown",
 				"branches": null,
 				"station": "place-chncl",
 				"order": 11,
 				"stops": {
-					"0": ["70019"],
-					"1": ["70018"]
+					"0": [
+						"70019"
+					],
+					"1": [
+						"70018"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70019": 1,
+					"70018": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Tufts Medical Center",
 				"branches": null,
 				"station": "place-tumnl",
 				"order": 12,
 				"stops": {
-					"0": ["70017"],
-					"1": ["70016"]
+					"0": [
+						"70017"
+					],
+					"1": [
+						"70016"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70016": 1,
+					"70017": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Back Bay",
 				"branches": null,
 				"station": "place-bbsta",
 				"order": 13,
 				"stops": {
-					"0": ["70015"],
-					"1": ["70014"]
+					"0": [
+						"70015"
+					],
+					"1": [
+						"70014"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-bbsta",
+						"stop": "place-bbsta",
+						"properties": {
+							"capacity": 40,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Back Bay Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70014": 1,
+					"70015": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Massachusetts Avenue",
 				"branches": null,
 				"station": "place-masta",
 				"order": 14,
 				"stops": {
-					"0": ["70013"],
-					"1": ["70012"]
+					"0": [
+						"70013"
+					],
+					"1": [
+						"70012"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-masta",
+						"stop": "place-masta",
+						"properties": {
+							"capacity": 24,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Massachusetts Avenue bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70013": 1,
+					"70012": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Ruggles",
 				"branches": null,
 				"station": "place-rugg",
 				"order": 15,
 				"stops": {
-					"0": ["70011"],
-					"1": ["70010"]
+					"0": [
+						"70011"
+					],
+					"1": [
+						"70010"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-rugg",
+						"stop": "place-rugg",
+						"properties": {
+							"capacity": 20,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Ruggles bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70011": 1,
+					"70010": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Roxbury Crossing",
 				"branches": null,
 				"station": "place-rcmnl",
 				"order": 16,
 				"stops": {
-					"0": ["70009"],
-					"1": ["70008"]
+					"0": [
+						"70009"
+					],
+					"1": [
+						"70008"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-rcmnl",
+						"stop": "place-rcmnl",
+						"properties": {
+							"capacity": 16,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Roxbury Crossing covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70008": 1,
+					"70009": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Jackson Square",
 				"branches": null,
 				"station": "place-jaksn",
 				"order": 17,
 				"stops": {
-					"0": ["70007"],
-					"1": ["70006"]
+					"0": [
+						"70007"
+					],
+					"1": [
+						"70006"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-jaksn",
+						"stop": "place-jaksn",
+						"properties": {
+							"capacity": 18,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Jackson Square covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70007": 1,
+					"70006": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Stony Brook",
 				"branches": null,
 				"station": "place-sbmnl",
 				"order": 18,
 				"stops": {
-					"0": ["70005"],
-					"1": ["70004"]
+					"0": [
+						"70005"
+					],
+					"1": [
+						"70004"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70004": 1,
+					"70005": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Green Street",
 				"branches": null,
 				"station": "place-grnst",
 				"order": 19,
 				"stops": {
-					"0": ["70003"],
-					"1": ["70002"]
+					"0": [
+						"70003"
+					],
+					"1": [
+						"70002"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-grnst",
+						"stop": "place-grnst",
+						"properties": {
+							"capacity": 22,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Green Street covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70003": 1,
+					"70002": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Forest Hills",
 				"branches": null,
 				"station": "place-forhl",
 				"order": 20,
 				"stops": {
-					"0": ["70001"],
-					"1": ["70001"]
+					"0": [
+						"70001"
+					],
+					"1": [
+						"70001"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-forhl",
+						"stop": "place-forhl",
+						"properties": {
+							"capacity": 110,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Forest Hills Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70001": 1
 				}
 			}
 		]
@@ -419,107 +1229,303 @@
 				"station": "place-wondl",
 				"order": 1,
 				"stops": {
-					"0": ["70060"],
-					"1": ["70059"]
+					"0": [
+						"70060"
+					],
+					"1": [
+						"70059"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-wondl",
+						"stop": "place-wondl",
+						"properties": {
+							"capacity": 145,
+							"enclosed": 1,
+							"secured": 1
+						},
+						"long_name": "Wonderland Pedal and Park"
+					}
+				],
+				"wheelchair_boarding": {
+					"70059": 1,
+					"70060": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Revere Beach",
 				"branches": null,
 				"station": "place-rbmnl",
 				"order": 2,
 				"stops": {
-					"0": ["70058"],
-					"1": ["70057"]
+					"0": [
+						"70058"
+					],
+					"1": [
+						"70057"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-rbmnl",
+						"stop": "place-rbmnl",
+						"properties": {
+							"capacity": 13,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Revere Beach bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70058": 1,
+					"70057": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Beachmont",
 				"branches": null,
 				"station": "place-bmmnl",
 				"order": 3,
 				"stops": {
-					"0": ["70056"],
-					"1": ["70055"]
+					"0": [
+						"70056"
+					],
+					"1": [
+						"70055"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-bmmnl",
+						"stop": "place-bmmnl",
+						"properties": {
+							"capacity": 39,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Beachmont bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70056": 1,
+					"70055": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Suffolk Downs",
 				"branches": null,
 				"station": "place-sdmnl",
 				"order": 4,
 				"stops": {
-					"0": ["70054"],
-					"1": ["70053"]
+					"0": [
+						"70054"
+					],
+					"1": [
+						"70053"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-sdmnl",
+						"stop": "place-sdmnl",
+						"properties": {
+							"capacity": 26,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Suffolk Downs bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70054": 1,
+					"70053": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Orient Heights",
 				"branches": null,
 				"station": "place-orhte",
 				"order": 5,
 				"stops": {
-					"0": ["70052"],
-					"1": ["70051"]
+					"0": [
+						"70052"
+					],
+					"1": [
+						"70051"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-orhte",
+						"stop": "place-orhte",
+						"properties": {
+							"capacity": 34,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Orient Heights covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70052": 1,
+					"70051": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Wood Island",
 				"branches": null,
 				"station": "place-wimnl",
 				"order": 6,
 				"stops": {
-					"0": ["70050"],
-					"1": ["70049"]
+					"0": [
+						"70050"
+					],
+					"1": [
+						"70049"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-wimnl",
+						"stop": "place-wimnl",
+						"properties": {
+							"capacity": 24,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Wood Island covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70050": 1,
+					"70049": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Airport",
 				"branches": null,
 				"station": "place-aport",
 				"order": 7,
 				"stops": {
-					"0": ["70048"],
-					"1": ["70047"]
+					"0": [
+						"70048"
+					],
+					"1": [
+						"70047"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70047": 1,
+					"70048": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Maverick",
 				"branches": null,
 				"station": "place-mvbcl",
 				"order": 8,
 				"stops": {
-					"0": ["70046"],
-					"1": ["70045"]
+					"0": [
+						"70046"
+					],
+					"1": [
+						"70045"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-mvbcl",
+						"stop": "place-mvbcl",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Maverick covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70045": 1,
+					"70046": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Aquarium",
 				"branches": null,
 				"station": "place-aqucl",
 				"order": 9,
 				"stops": {
-					"0": ["70044"],
-					"1": ["70043"]
+					"0": [
+						"70044"
+					],
+					"1": [
+						"70043"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70044": 1,
+					"70043": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "State Street",
 				"branches": null,
 				"station": "place-state",
 				"order": 10,
 				"stops": {
-					"0": ["70042"],
-					"1": ["70041"]
+					"0": [
+						"70042"
+					],
+					"1": [
+						"70041"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70042": 1,
+					"70041": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Government Center",
 				"branches": null,
 				"station": "place-gover",
 				"order": 11,
 				"stops": {
-					"0": ["70040"],
-					"1": ["70039"]
+					"0": [
+						"70040"
+					],
+					"1": [
+						"70039"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70040": 1,
+					"70039": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Bowdoin",
 				"branches": null,
 				"station": "place-bomnl",
 				"order": 12,
 				"stops": {
-					"0": ["70038"],
-					"1": ["70838"]
+					"0": [
+						"70038"
+					],
+					"1": [
+						"70838"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70838": 2,
+					"70038": 2
 				}
 			}
 		]
@@ -533,639 +1539,1884 @@
 		"stations": [
 			{
 				"stop_name": "Medford/Tufts",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-mdftf",
 				"disabled": false,
 				"order": 1,
 				"stops": {
-					"0": ["70511"],
-					"1": ["70512"]
+					"0": [
+						"70511"
+					],
+					"1": [
+						"70512"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-mdftf-pedalpark",
+						"stop": "place-mdftf",
+						"properties": {
+							"capacity": 50,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Medford/Tufts covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70511": 1,
+					"70512": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Ball Square",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-balsq",
 				"disabled": false,
 				"order": 2,
 				"stops": {
-					"0": ["70509"],
-					"1": ["70510"]
+					"0": [
+						"70509"
+					],
+					"1": [
+						"70510"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-balsq-pedalpark",
+						"stop": "place-balsq",
+						"properties": {
+							"capacity": 50,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Ball Square covered bike rack"
+					},
+					{
+						"id": "bike-balsq-racks",
+						"stop": "place-balsq",
+						"properties": {
+							"capacity": 18,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Ball Square bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70510": 1,
+					"70509": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Magoun Square",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-mgngl",
 				"disabled": false,
 				"order": 3,
 				"stops": {
-					"0": ["70507"],
-					"1": ["70508"]
+					"0": [
+						"70507"
+					],
+					"1": [
+						"70508"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-mgngl-pedalpark",
+						"stop": "place-mgngl",
+						"properties": {
+							"capacity": 36,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Magoun Square covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70507": 1,
+					"70508": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Gilman Square",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-gilmn",
 				"disabled": false,
 				"order": 4,
 				"stops": {
-					"0": ["70505"],
-					"1": ["70506"]
+					"0": [
+						"70505"
+					],
+					"1": [
+						"70506"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-gilmn-racks",
+						"stop": "place-gilmn",
+						"properties": {
+							"capacity": 12,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Gilman Square bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70505": 1,
+					"70506": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "East Somerville",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-esomr",
 				"disabled": false,
 				"order": 5,
 				"stops": {
-					"0": ["70513"],
-					"1": ["70514"]
+					"0": [
+						"70513"
+					],
+					"1": [
+						"70514"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-esomr-pedalpark",
+						"stop": "place-esomr",
+						"properties": {
+							"capacity": 52,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "East Somerville covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70513": 1,
+					"70514": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Union Square",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-unsqu",
 				"disabled": false,
 				"order": 6,
 				"stops": {
-					"0": ["70503"],
-					"1": ["70504"]
+					"0": [
+						"70503"
+					],
+					"1": [
+						"70504"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-unsqu-storage",
+						"stop": "place-unsqu",
+						"properties": {
+							"capacity": 86,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Union Square covered bike rack"
+					},
+					{
+						"id": "bike-unsqu-rackwest",
+						"stop": "place-unsqu",
+						"properties": {
+							"capacity": 14,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Union Square bike rack"
+					},
+					{
+						"id": "bike-unsqu-rackeast",
+						"stop": "place-unsqu",
+						"properties": {
+							"capacity": 10,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Union Square bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70503": 1,
+					"70504": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Lechmere",
-				"branches": ["D", "E"],
+				"branches": [
+					"D",
+					"E"
+				],
 				"station": "place-lech",
 				"order": 7,
 				"stops": {
-					"0": ["70501", "70209"],
-					"1": ["70502", "70210"]
+					"0": [
+						"70501",
+						"70209"
+					],
+					"1": [
+						"70502",
+						"70210"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-lech-obrieneb",
+						"stop": "place-lech",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Lechmere bike rack"
+					},
+					{
+						"id": "bike-lech-storage",
+						"stop": "place-lech",
+						"properties": {
+							"capacity": 182,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Lechmere covered bike rack"
+					},
+					{
+						"id": "bike-lech-obrienwb",
+						"stop": "place-lech",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Lechmere bike rack"
+					},
+					{
+						"id": "bike-lech-northstorage",
+						"stop": "place-lech",
+						"properties": {
+							"capacity": 6,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Lechmere bike rack"
+					},
+					{
+						"id": "bike-lech-northfirst",
+						"stop": "place-lech",
+						"properties": {
+							"capacity": 48,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Lechmere bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70502": 1,
+					"70501": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Science Park",
-				"branches": ["D", "E"],
+				"branches": [
+					"D",
+					"E"
+				],
 				"station": "place-spmnl",
 				"order": 8,
 				"stops": {
-					"0": ["70207"],
-					"1": ["70208"]
+					"0": [
+						"70207"
+					],
+					"1": [
+						"70208"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70207": 1,
+					"70208": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "North Station",
-				"branches": ["C", "D", "E"],
+				"branches": [
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-north",
 				"order": 9,
 				"stops": {
-					"0": ["70205"],
-					"1": ["70206"]
+					"0": [
+						"70205"
+					],
+					"1": [
+						"70206"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-north",
+						"stop": "place-north",
+						"properties": {
+							"capacity": 20,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "North Station bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70205": 1,
+					"70206": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Haymarket",
-				"branches": ["C", "D", "E"],
+				"branches": [
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-haecl",
 				"order": 10,
 				"stops": {
-					"0": ["70203"],
-					"1": ["70204"]
+					"0": [
+						"70203"
+					],
+					"1": [
+						"70204"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70203": 1,
+					"70204": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Government Center",
-				"branches": ["B", "C", "D", "E"],
+				"branches": [
+					"B",
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-gover",
 				"order": 11,
 				"stops": {
-					"0": ["70201"],
-					"1": ["70202"]
+					"0": [
+						"70201"
+					],
+					"1": [
+						"70202"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70202": 1,
+					"70201": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Park Street",
-				"branches": ["B", "C", "D", "E"],
+				"branches": [
+					"B",
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-pktrm",
 				"order": 12,
 				"stops": {
-					"0": ["70200"],
-					"1": ["70196", "70197", "70198", "70199"]
+					"0": [
+						"70200"
+					],
+					"1": [
+						"70196",
+						"70197",
+						"70198",
+						"70199"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70197": 1,
+					"70198": 1,
+					"70199": 1,
+					"70200": 1,
+					"70196": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Boylston",
-				"branches": ["B", "C", "D", "E"],
+				"branches": [
+					"B",
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-boyls",
 				"order": 13,
 				"stops": {
-					"0": ["70158"],
-					"1": ["70159"]
+					"0": [
+						"70158"
+					],
+					"1": [
+						"70159"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70158": 2,
+					"70159": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Arlington",
-				"branches": ["B", "C", "D", "E"],
+				"branches": [
+					"B",
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-armnl",
 				"order": 14,
 				"stops": {
-					"0": ["70156"],
-					"1": ["70157"]
+					"0": [
+						"70156"
+					],
+					"1": [
+						"70157"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70157": 1,
+					"70156": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Copley",
-				"branches": ["B", "C", "D", "E"],
+				"branches": [
+					"B",
+					"C",
+					"D",
+					"E"
+				],
 				"station": "place-coecl",
 				"order": 15,
 				"stops": {
-					"0": ["70154"],
-					"1": ["70155"]
+					"0": [
+						"70154"
+					],
+					"1": [
+						"70155"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70154": 1,
+					"70155": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Hynes",
-				"branches": ["B", "C", "D"],
+				"branches": [
+					"B",
+					"C",
+					"D"
+				],
 				"station": "place-hymnl",
 				"order": 16,
 				"stops": {
-					"0": ["70152"],
-					"1": ["70153"]
+					"0": [
+						"70152"
+					],
+					"1": [
+						"70153"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70152": 2,
+					"70153": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Kenmore",
-				"branches": ["B", "C", "D"],
+				"branches": [
+					"B",
+					"C",
+					"D"
+				],
 				"station": "place-kencl",
 				"order": 17,
 				"stops": {
-					"0": ["70150", "71150"],
-					"1": ["70151", "71151"]
+					"0": [
+						"70150",
+						"71150"
+					],
+					"1": [
+						"70151",
+						"71151"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-kencl",
+						"stop": "place-kencl",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Kenmore bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70151": 1,
+					"70150": 1,
+					"71151": 1,
+					"71150": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Blandford Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-bland",
 				"order": 101,
 				"stops": {
-					"0": ["70148"],
-					"1": ["70149"]
+					"0": [
+						"70148"
+					],
+					"1": [
+						"70149"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70149": 2,
+					"70148": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Boston University East",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-buest",
 				"order": 102,
 				"stops": {
-					"0": ["70146"],
-					"1": ["70147"]
+					"0": [
+						"70146"
+					],
+					"1": [
+						"70147"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70146": 1,
+					"70147": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Boston University Central",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-bucen",
 				"order": 103,
 				"stops": {
-					"0": ["70144"],
-					"1": ["70145"]
+					"0": [
+						"70144"
+					],
+					"1": [
+						"70145"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70145": 1,
+					"70144": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Amory Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-amory",
 				"order": 105,
 				"stops": {
-					"0": ["170140", "70140"],
-					"1": ["170141", "70141"]
+					"0": [
+						"170140",
+						"70140"
+					],
+					"1": [
+						"170141",
+						"70141"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"170140": 1,
+					"170141": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Babcock Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-babck",
 				"order": 107,
 				"stops": {
-					"0": ["170136", "70136"],
-					"1": ["170137", "70137"]
+					"0": [
+						"170136",
+						"70136"
+					],
+					"1": [
+						"170137",
+						"70137"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"170137": 1,
+					"170136": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Packards Corner",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-brico",
 				"order": 108,
 				"stops": {
-					"0": ["70134"],
-					"1": ["70135"]
+					"0": [
+						"70134"
+					],
+					"1": [
+						"70135"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70135": 2,
+					"70134": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Harvard Avenue",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-harvd",
 				"order": 109,
 				"stops": {
-					"0": ["70130"],
-					"1": ["70131"]
+					"0": [
+						"70130"
+					],
+					"1": [
+						"70131"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70130": 1,
+					"70131": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Griggs Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-grigg",
 				"order": 110,
 				"stops": {
-					"0": ["70128"],
-					"1": ["70129"]
+					"0": [
+						"70128"
+					],
+					"1": [
+						"70129"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70129": 2,
+					"70128": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Allston Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-alsgr",
 				"order": 111,
 				"stops": {
-					"0": ["70126"],
-					"1": ["70127"]
+					"0": [
+						"70126"
+					],
+					"1": [
+						"70127"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70126": 2,
+					"70127": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Warren Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-wrnst",
 				"order": 112,
 				"stops": {
-					"0": ["70124"],
-					"1": ["70125"]
+					"0": [
+						"70124"
+					],
+					"1": [
+						"70125"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-wrnst",
+						"stop": "place-wrnst",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Warren Street covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70124": 2,
+					"70125": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Washington Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-wascm",
 				"order": 113,
 				"stops": {
-					"0": ["70120"],
-					"1": ["70121"]
+					"0": [
+						"70120"
+					],
+					"1": [
+						"70121"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70120": 1,
+					"70121": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Sutherland Road",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-sthld",
 				"order": 114,
 				"stops": {
-					"0": ["70116"],
-					"1": ["70117"]
+					"0": [
+						"70116"
+					],
+					"1": [
+						"70117"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70116": 2,
+					"70117": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Chiswick Road",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-chswk",
 				"order": 115,
 				"stops": {
-					"0": ["70114"],
-					"1": ["70115"]
+					"0": [
+						"70114"
+					],
+					"1": [
+						"70115"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70114": 2,
+					"70115": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Chestnut Hill Avenue",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-chill",
 				"order": 116,
 				"stops": {
-					"0": ["70112"],
-					"1": ["70113"]
+					"0": [
+						"70112"
+					],
+					"1": [
+						"70113"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70112": 2,
+					"70113": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "South Street",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-sougr",
 				"order": 117,
 				"stops": {
-					"0": ["70110"],
-					"1": ["70111"]
+					"0": [
+						"70110"
+					],
+					"1": [
+						"70111"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70110": 2,
+					"70111": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Boston College",
-				"branches": ["B"],
+				"branches": [
+					"B"
+				],
 				"station": "place-lake",
 				"order": 118,
 				"stops": {
-					"0": ["70106"],
-					"1": ["70107"]
+					"0": [
+						"70106"
+					],
+					"1": [
+						"70107"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70107": 1,
+					"70106": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Saint Marys Street",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-smary",
 				"order": 201,
 				"stops": {
-					"0": ["70212"],
-					"1": ["70211"]
+					"0": [
+						"70212"
+					],
+					"1": [
+						"70211"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-smary",
+						"stop": "place-smary",
+						"properties": {
+							"capacity": 10,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Saint Mary's Street bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70212": 1,
+					"70211": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Hawes Street",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-hwsst",
 				"order": 202,
 				"stops": {
-					"0": ["70214"],
-					"1": ["70213"]
+					"0": [
+						"70214"
+					],
+					"1": [
+						"70213"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70213": 2,
+					"70214": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Kent Street",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-kntst",
 				"order": 203,
 				"stops": {
-					"0": ["70216"],
-					"1": ["70215"]
+					"0": [
+						"70216"
+					],
+					"1": [
+						"70215"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70215": 2,
+					"70216": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Saint Paul Street (C)",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-stpul",
 				"order": 204,
 				"stops": {
-					"0": ["70218"],
-					"1": ["70217"]
+					"0": [
+						"70218"
+					],
+					"1": [
+						"70217"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70217": 2,
+					"70218": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Coolidge Corner",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-cool",
 				"order": 205,
 				"stops": {
-					"0": ["70220"],
-					"1": ["70219"]
+					"0": [
+						"70220"
+					],
+					"1": [
+						"70219"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-cool",
+						"stop": "place-cool",
+						"properties": {
+							"capacity": 20,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Coolidge Corner bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70220": 1,
+					"70219": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Summit Avenue",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-sumav",
 				"order": 206,
 				"stops": {
-					"0": ["70224"],
-					"1": ["70223"]
+					"0": [
+						"70224"
+					],
+					"1": [
+						"70223"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-sumav",
+						"stop": "place-sumav",
+						"properties": {
+							"capacity": 16,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Summit Avenue covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70223": 2,
+					"70224": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Brandon Hall",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-bndhl",
 				"order": 207,
 				"stops": {
-					"0": ["70226"],
-					"1": ["70225"]
+					"0": [
+						"70226"
+					],
+					"1": [
+						"70225"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70225": 2,
+					"70226": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Fairbanks Street",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-fbkst",
 				"order": 208,
 				"stops": {
-					"0": ["70228"],
-					"1": ["70227"]
+					"0": [
+						"70228"
+					],
+					"1": [
+						"70227"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70227": 2,
+					"70228": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Washington Square",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-bcnwa",
 				"order": 209,
 				"stops": {
-					"0": ["70230"],
-					"1": ["70229"]
+					"0": [
+						"70230"
+					],
+					"1": [
+						"70229"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70229": 1,
+					"70230": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Tappan Street",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-tapst",
 				"order": 210,
 				"stops": {
-					"0": ["70232"],
-					"1": ["70231"]
+					"0": [
+						"70232"
+					],
+					"1": [
+						"70231"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70231": 2,
+					"70232": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Dean Road",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-denrd",
 				"order": 211,
 				"stops": {
-					"0": ["70234"],
-					"1": ["70233"]
+					"0": [
+						"70234"
+					],
+					"1": [
+						"70233"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70233": 2,
+					"70234": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Englewood Avenue",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-engav",
 				"order": 212,
 				"stops": {
-					"0": ["70236"],
-					"1": ["70235"]
+					"0": [
+						"70236"
+					],
+					"1": [
+						"70235"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70235": 2,
+					"70236": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Cleveland Circle",
-				"branches": ["C"],
+				"branches": [
+					"C"
+				],
 				"station": "place-clmnl",
 				"order": 213,
 				"stops": {
-					"0": ["70238"],
-					"1": ["70237"]
+					"0": [
+						"70238"
+					],
+					"1": [
+						"70237"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-clmnl",
+						"stop": "place-clmnl",
+						"properties": {
+							"capacity": 10,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Cleveland Circle bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70238": 1,
+					"70237": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Fenway",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-fenwy",
 				"order": 301,
 				"stops": {
-					"0": ["70186"],
-					"1": ["70187"]
+					"0": [
+						"70186"
+					],
+					"1": [
+						"70187"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-fenwy",
+						"stop": "place-fenwy",
+						"properties": {
+							"capacity": 18,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Fenway bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70186": 1,
+					"70187": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Longwood",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-longw",
 				"order": 302,
 				"stops": {
-					"0": ["70182"],
-					"1": ["70183"]
+					"0": [
+						"70182"
+					],
+					"1": [
+						"70183"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-longw",
+						"stop": "place-longw",
+						"properties": {
+							"capacity": 15,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Longwood bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70182": 1,
+					"70183": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Brookline Village",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-bvmnl",
 				"order": 303,
 				"stops": {
-					"0": ["70180"],
-					"1": ["70181"]
+					"0": [
+						"70180"
+					],
+					"1": [
+						"70181"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-bvmnl",
+						"stop": "place-bvmnl",
+						"properties": {
+							"capacity": 15,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Brookline Village covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70181": 1,
+					"70180": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Brookline Hills",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-brkhl",
 				"order": 304,
 				"stops": {
-					"0": ["70178"],
-					"1": ["70179"]
+					"0": [
+						"70178"
+					],
+					"1": [
+						"70179"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-brkhl-west",
+						"stop": "place-brkhl",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Brookline Hills bike rack"
+					},
+					{
+						"id": "bike-brkhl-east",
+						"stop": "place-brkhl",
+						"properties": {
+							"capacity": 24,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Brookline Hills bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70178": 1,
+					"70179": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Beaconsfield",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-bcnfd",
 				"order": 305,
 				"stops": {
-					"0": ["70176"],
-					"1": ["70177"]
+					"0": [
+						"70176"
+					],
+					"1": [
+						"70177"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-bcnfd",
+						"stop": "place-bcnfd",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Beaconsfield bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70177": 2,
+					"70176": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Reservoir",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-rsmnl",
 				"order": 306,
 				"stops": {
-					"0": ["70174"],
-					"1": ["70175"]
+					"0": [
+						"70174"
+					],
+					"1": [
+						"70175"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-rsmnl",
+						"stop": "place-rsmnl",
+						"properties": {
+							"capacity": 8,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Reservoir covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70175": 1,
+					"70174": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Chestnut Hill",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-chhil",
 				"order": 307,
 				"stops": {
-					"0": ["70172"],
-					"1": ["70173"]
+					"0": [
+						"70172"
+					],
+					"1": [
+						"70173"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-chhil",
+						"stop": "place-chhil",
+						"properties": {
+							"capacity": 12,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Chestnut Hill covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70173": 2,
+					"70172": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Newton Centre",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-newto",
 				"order": 308,
 				"stops": {
-					"0": ["70170"],
-					"1": ["70171"]
+					"0": [
+						"70170"
+					],
+					"1": [
+						"70171"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-newto",
+						"stop": "place-newto",
+						"properties": {
+							"capacity": 15,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Newton Centre bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70170": 1,
+					"70171": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Newton Highlands",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-newtn",
 				"order": 309,
 				"stops": {
-					"0": ["70168"],
-					"1": ["70169"]
+					"0": [
+						"70168"
+					],
+					"1": [
+						"70169"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70169": 1,
+					"70168": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Eliot",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-eliot",
 				"order": 310,
 				"stops": {
-					"0": ["70166"],
-					"1": ["70167"]
+					"0": [
+						"70166"
+					],
+					"1": [
+						"70167"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-eliot",
+						"stop": "place-eliot",
+						"properties": {
+							"capacity": 32,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Eliot covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70166": 2,
+					"70167": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Waban",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-waban",
 				"order": 311,
 				"stops": {
-					"0": ["70164"],
-					"1": ["70165"]
+					"0": [
+						"70164"
+					],
+					"1": [
+						"70165"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-waban",
+						"stop": "place-waban",
+						"properties": {
+							"capacity": 12,
+							"enclosed": 2,
+							"secured": 2
+						},
+						"long_name": "Waban bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70164": 2,
+					"70165": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Woodland",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-woodl",
 				"order": 312,
 				"stops": {
-					"0": ["70162"],
-					"1": ["70163"]
+					"0": [
+						"70162"
+					],
+					"1": [
+						"70163"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-woodl",
+						"stop": "place-woodl",
+						"properties": {
+							"capacity": 13,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Woodland covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70162": 1,
+					"70163": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Riverside",
-				"branches": ["D"],
+				"branches": [
+					"D"
+				],
 				"station": "place-river",
 				"order": 313,
 				"stops": {
-					"0": ["70160"],
-					"1": ["70161"]
+					"0": [
+						"70160"
+					],
+					"1": [
+						"70161"
+					]
+				},
+				"bike_facilities": [
+					{
+						"id": "bike-river",
+						"stop": "place-river",
+						"properties": {
+							"capacity": 36,
+							"enclosed": 1,
+							"secured": 2
+						},
+						"long_name": "Riverside covered bike rack"
+					}
+				],
+				"wheelchair_boarding": {
+					"70161": 1,
+					"70160": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Prudential",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-prmnl",
 				"order": 401,
 				"stops": {
-					"0": ["70240"],
-					"1": ["70239"]
+					"0": [
+						"70240"
+					],
+					"1": [
+						"70239"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70239": 1,
+					"70240": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Symphony",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-symcl",
 				"order": 402,
 				"stops": {
-					"0": ["70242"],
-					"1": ["70241"]
+					"0": [
+						"70242"
+					],
+					"1": [
+						"70241"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70241": 2,
+					"70242": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Northeastern University",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-nuniv",
 				"order": 403,
 				"stops": {
-					"0": ["70244"],
-					"1": ["70243"]
+					"0": [
+						"70244"
+					],
+					"1": [
+						"70243"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70244": 1,
+					"70243": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Museum of Fine Arts",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-mfa",
 				"order": 404,
 				"stops": {
-					"0": ["70246"],
-					"1": ["70245"]
+					"0": [
+						"70246"
+					],
+					"1": [
+						"70245"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70245": 1,
+					"70246": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Longwood Medical Area",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-lngmd",
 				"order": 405,
 				"stops": {
-					"0": ["70248"],
-					"1": ["70247"]
+					"0": [
+						"70248"
+					],
+					"1": [
+						"70247"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70248": 1,
+					"70247": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Brigham Circle",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-brmnl",
 				"order": 406,
 				"stops": {
-					"0": ["70250"],
-					"1": ["70249"]
+					"0": [
+						"70250"
+					],
+					"1": [
+						"70249"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70249": 1,
+					"70250": 1
 				}
-			}, {
+			},
+			{
 				"stop_name": "Fenwood Road",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-fenwd",
 				"order": 407,
 				"stops": {
-					"0": ["70252"],
-					"1": ["70251"]
+					"0": [
+						"70252"
+					],
+					"1": [
+						"70251"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70251": 2,
+					"70252": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Mission Park",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-mispk",
 				"order": 408,
 				"stops": {
-					"0": ["70254"],
-					"1": ["70253"]
+					"0": [
+						"70254"
+					],
+					"1": [
+						"70253"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70253": 2,
+					"70254": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Riverway",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-rvrwy",
 				"order": 409,
 				"stops": {
-					"0": ["70256"],
-					"1": ["70255"]
+					"0": [
+						"70256"
+					],
+					"1": [
+						"70255"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70256": 2,
+					"70255": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Back of the Hill",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-bckhl",
 				"order": 410,
 				"stops": {
-					"0": ["70258"],
-					"1": ["70257"]
+					"0": [
+						"70258"
+					],
+					"1": [
+						"70257"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70257": 2,
+					"70258": 2
 				}
-			}, {
+			},
+			{
 				"stop_name": "Heath Street",
-				"branches": ["E"],
+				"branches": [
+					"E"
+				],
 				"station": "place-hsmnl",
 				"order": 411,
 				"stops": {
-					"0": ["70260"],
-					"1": ["70260"]
+					"0": [
+						"70260"
+					],
+					"1": [
+						"70260"
+					]
+				},
+				"bike_facilities": [],
+				"wheelchair_boarding": {
+					"70260": 1
 				}
 			}
 		]
